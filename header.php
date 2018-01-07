@@ -26,7 +26,7 @@
 				<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', '_s' ); ?></a>
 
 				<div class="columns">
-					<div class="column">
+					<div class="column is-one-fifth left-sidebar">
 						<header id="masthead" class="site-header">
 									<div class="site-branding">
 										<?php
@@ -49,11 +49,12 @@
 									<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css.map">
 									<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 									<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-									<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+									<link href="https://fonts.googleapis.com/css?family=Cabin|Orbitron|Oswald" rel="stylesheet">
 
 						</header><!-- #masthead -->
+						<?php get_sidebar(); ?>
 					</div><!--column-->
-					<div class="column">
+					<div class="column main-area-column">
 							<nav id="site-navigation" class="main-navigation">
 								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', '_s' ); ?></button>
 								<?php

@@ -880,6 +880,7 @@ object {
 	font-size: 20px;
 	font-weight: bold;
 	color:#054d8c;
+	margin-bottom:20px;
 }
 
 .main-navigation li {
@@ -897,6 +898,28 @@ object {
 	margin-top:20px;
 }
 
-p{
-	font-family: 'Cabin', sans-serif;
+p,a,h1,h2,h3,h4,h5,h6,h7,h8{
+	font-family: 'Cabin', sans-serif !important;
+}
+
+.entry-title{
+	color:#054d8c;
+	font-size:25px;
+	border-bottom:1px solid #054d8c;
+	border-top:1px solid #054d8c;
+	padding:15px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.content-bordered{
+	border:1px solid #054d8c;
+}
+
+.left-sidebar{
+	height:100%;
+	border-right:1px solid #054d8c;
+}
+
+.footer-bordered{
+	border-top:1px solid #054d8c;
 }

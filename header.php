@@ -27,26 +27,12 @@
 
 				<div class="columns">
 					<div class="column">
-						<nav id="site-navigation" class="main-navigation">
-							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', '_s' ); ?></button>
-							<?php
-								wp_nav_menu( array(
-									'theme_location' => 'menu-1',
-									'menu_id'        => 'primary-menu',
-								) );
-							?>
-						</nav><!-- #site-navigation -->
-					</div>
-				</div>
-
-				<div class="columns">
-					<div class="column">
 						<header id="masthead" class="site-header">
 									<div class="site-branding">
 										<?php
 										the_custom_logo();
 										if ( is_front_page() && is_home() ) : ?>
-											<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+											<h1 class="site-title font-cabin"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 										<?php else : ?>
 											<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 										<?php
@@ -63,9 +49,21 @@
 									<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css.map">
 									<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 									<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+									<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 
 						</header><!-- #masthead -->
-					</div>
+					</div><!--column-->
 					<div class="column">
+							<nav id="site-navigation" class="main-navigation">
+								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', '_s' ); ?></button>
+								<?php
+									wp_nav_menu( array(
+										'theme_location' => 'menu-1',
+										'menu_id'        => 'primary-menu',
+									) );
+								?>
+							</nav><!-- #site-navigation -->
+
+					
 			<div id="content" class="site-content">
 

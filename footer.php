@@ -33,6 +33,7 @@
 <!-- these close divs in header.php -->
 </div><!-- column -->
 </div><!-- columns -->
+</div><!-- container -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

@@ -923,3 +923,23 @@ p,a,h1,h2,h3,h4,h5,h6,h7,h8{
 .footer-bordered{
 	border-top:1px solid #054d8c;
 }
+
+/*****************/
+/* MOBILE SPACE */
+/*****************/
+
+@media only screen and (max-width: 768px) {
+    #secondary {
+        display:none;
+    }
+	
+	.left-sidebar {
+    height: 100px;
+    border-right: none;
+	}
+	
+	.site-branding,.entry-meta,#colophon,.entry-content,.entry-footer{
+		    margin: 20px;
+	}
+
+}

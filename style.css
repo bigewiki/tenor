@@ -941,5 +941,23 @@ p,a,h1,h2,h3,h4,h5,h6,h7,h8{
 	.site-branding,.entry-meta,#colophon,.entry-content,.entry-footer{
 		    margin: 20px;
 	}
+	
+	.menu-toggle{
+		background-color:transparent;
+		border:0px solid transparent;
+		float:right;
+		font-size:20px;
+		padding:0px;
+		margin:10px;
+		color:#969696;
+	}
+	
+	#masthead,.left-sidebar,.main-navigation{
+		background-color: #FFFFFF;
+	}
+	
+	.site-title a,.site-description,.main-navigation a{
+		color:#969696;
+	}
 
 }

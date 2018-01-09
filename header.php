@@ -29,6 +29,7 @@
 				<div class="columns">
 					<div class="column is-one-fifth left-sidebar">
 						<header id="masthead" class="site-header">
+
 									<div class="site-branding">
 										<?php
 										the_custom_logo();
@@ -46,6 +47,7 @@
 										endif; ?>
 									</div><!-- .site-branding -->
 
+
 									<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
 									<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css.map">
 									<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -57,7 +59,9 @@
 					</div><!--column-->
 					<div class="column main-area-column">
 							<nav id="site-navigation" class="main-navigation">
-								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', '_s' ); ?></button>
+								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+									<i class="fa fa-bars" aria-hidden="true"></i>
+								</button>
 								<?php
 									wp_nav_menu( array(
 										'theme_location' => 'menu-1',

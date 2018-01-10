@@ -27,7 +27,7 @@
 				<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', '_s' ); ?></a>
 
 				<div class="columns">
-					<div class="column is-one-fifth left-sidebar">
+					<div class="column is-one-fifth left-sidebar is-desktop-only">
 						<header id="masthead" class="site-header">
 
 									<div class="site-branding">
@@ -46,6 +46,29 @@
 										<?php
 										endif; ?>
 									</div><!-- .site-branding -->
+							
+							
+									<nav class="navbar" role="navigation" aria-label="main navigation">
+									  <div class="navbar-brand">
+										<a class="navbar-item" href="https://bulma.io">
+										  <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+										</a>
+
+										<button class="button navbar-burger">
+										  <span></span>
+										  <span></span>
+										  <span></span>
+										</button>
+										<div class="navbar-menu">
+											<?php
+												wp_nav_menu( array(
+													'theme_location' => 'menu-1',
+													'menu_id'        => 'primary-menu',
+												) );
+											?>
+										</div>
+									  </div>
+									</nav>
 
 
 									<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
@@ -57,8 +80,8 @@
 						</header><!-- #masthead -->
 						<?php get_sidebar(); ?>
 					</div><!--column-->
-					<div class="column main-area-column">
-							<nav id="site-navigation" class="main-navigation">
+					<div class="column main-area-column is-desktop-only">
+<!-- 							<nav id="site-navigation" class="main-navigation">
 								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
 									<i class="fa fa-bars" aria-hidden="true"></i>
 								</button>
@@ -67,7 +90,7 @@
 										'theme_location' => 'menu-1',
 										'menu_id'        => 'primary-menu',
 									) );
-								?>
+								?> -->
 							</nav><!-- #site-navigation -->
 
 					

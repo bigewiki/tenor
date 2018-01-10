@@ -10,6 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<div class="card post-card">
 	<header class="entry-header">
 		<?php
 		if ( is_singular() ) :
@@ -53,4 +54,5 @@
 	<footer class="entry-footer">
 		<?php _s_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
+</div><!-- card -->
 </article><!-- #post-<?php the_ID(); ?> -->

@@ -956,6 +956,7 @@ p,a,h1,h2,h3,h4,h5,h6,h7,h8{
 	
 	#masthead,.left-sidebar,.main-navigation{
 		background-color: #3E5062;
+		    margin-bottom: 20px;
 	}
 	
 	.site-title a,.site-description,.main-navigation a,.menu-toggle{
@@ -977,5 +978,15 @@ p,a,h1,h2,h3,h4,h5,h6,h7,h8{
 	body{
 		background-color:#C2D0DC;
 	}
+	
+	.post-card{
+		margin:20px;
+		padding:20px;
+	}
+	
+	.footer-bordered {
+		background-color:#232323;
+	}
+
 
 }

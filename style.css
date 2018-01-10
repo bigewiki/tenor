@@ -949,15 +949,33 @@ p,a,h1,h2,h3,h4,h5,h6,h7,h8{
 		font-size:20px;
 		padding:0px;
 		margin:10px;
-		color:#969696;
+		position:absolute;
+		top:50px;
+		right:50px;
 	}
 	
 	#masthead,.left-sidebar,.main-navigation{
-		background-color: #FFFFFF;
+		background-color: #3E5062;
 	}
 	
-	.site-title a,.site-description,.main-navigation a{
-		color:#969696;
+	.site-title a,.site-description,.main-navigation a,.menu-toggle{
+		color:white;
+	}
+	
+	.entry-title {
+    font-size: 25px;
+    border-bottom: none;
+    border-top: none;
+    padding: 15px;
+    font-family: 'Orbitron', sans-serif;
+	}
+	
+	.entry-title a{
+		    color: #7AC8CC;
+	}
+	
+	body{
+		background-color:#C2D0DC;
 	}
 
 }

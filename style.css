@@ -942,7 +942,7 @@ p,a,h1,h2,h3,h4,h5,h6,h7,h8{
 		    margin: 20px;
 	}
 	
-	.menu-toggle{
+/* 	.menu-toggle{
 		background-color:transparent;
 		border:0px solid transparent;
 		float:right;
@@ -952,7 +952,7 @@ p,a,h1,h2,h3,h4,h5,h6,h7,h8{
 		position:absolute;
 		top:50px;
 		right:50px;
-	}
+	} */
 	
 	#masthead,.left-sidebar,.main-navigation{
 		background-color: #3E5062;
@@ -988,5 +988,12 @@ p,a,h1,h2,h3,h4,h5,h6,h7,h8{
 		background-color:#232323;
 	}
 
+	#masthead{
+		margin-bottom:50px;
+	}
+	
+	.nav-and-branding{
+		height:200px;
+	}
 
 }

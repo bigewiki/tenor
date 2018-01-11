@@ -27,27 +27,9 @@
 				<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', '_s' ); ?></a>
 
 				<div class="columns">
-					<div class="column is-one-fifth left-sidebar is-desktop-only">
+					<div class="column is-one-fifth left-sidebar nav-and-branding">
 						<header id="masthead" class="site-header">
 
-									<div class="site-branding">
-										<?php
-										the_custom_logo();
-										if ( is_front_page() && is_home() ) : ?>
-											<h1 class="site-title font-cabin"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-										<?php else : ?>
-											<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-										<?php
-										endif;
-
-										$description = get_bloginfo( 'description', 'display' );
-										if ( $description || is_customize_preview() ) : ?>
-											<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-										<?php
-										endif; ?>
-									</div><!-- .site-branding -->
-							
-							
 									<nav class="navbar" role="navigation" aria-label="main navigation">
 									  <div class="navbar-brand">
 										<a class="navbar-item" href="https://bulma.io">
@@ -69,6 +51,24 @@
 										</div>
 									  </div>
 									</nav>
+							
+							
+									<div class="site-branding">
+										<?php
+										the_custom_logo();
+										if ( is_front_page() && is_home() ) : ?>
+											<h1 class="site-title font-cabin"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+										<?php else : ?>
+											<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+										<?php
+										endif;
+
+										$description = get_bloginfo( 'description', 'display' );
+										if ( $description || is_customize_preview() ) : ?>
+											<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+										<?php
+										endif; ?>
+									</div><!-- .site-branding -->
 
 
 									<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">

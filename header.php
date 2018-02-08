@@ -32,8 +32,10 @@
 
 									<nav class="navbar" role="navigation" aria-label="main navigation">
 									  <div class="navbar-brand">
-										<a class="navbar-item" href="https://bulma.io">
-										  <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+										<a class="navbar-item">
+											<?php
+											the_custom_logo();
+											if ( is_front_page() && is_home() ) : ?>
 										</a>
 
 										<button class="button navbar-burger">
@@ -51,8 +53,8 @@
 										</div>
 									  </div>
 									</nav>
-							
-							
+
+
 									<div class="site-branding">
 										<?php
 										the_custom_logo();
@@ -93,6 +95,5 @@
 								?> -->
 							</nav><!-- #site-navigation -->
 
-					
-			<div id="content" class="site-content">
 
+			<div id="content" class="site-content">

@@ -32,16 +32,18 @@
 
 									<nav class="navbar" role="navigation" aria-label="main navigation">
 									  <div class="navbar-brand">
-										<a class="navbar-item">
-											<?php
-											the_custom_logo();
-											if ( is_front_page() && is_home() ) : ?>
-										</a>
+											<div class="site-branding">
+												<?php
+												the_custom_logo();
+												?>
+													<h1 class="site-title font-cabin"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
-										<button class="button navbar-burger">
-										  <span></span>
-										  <span></span>
-										  <span></span>
+
+
+											</div><!-- .site-branding -->
+
+										<button class="button tenor-nav-burger">
+										  <i class="fas fa-chevron-down"></i>
 										</button>
 										<div class="navbar-menu">
 											<?php
@@ -54,23 +56,14 @@
 									  </div>
 									</nav>
 
+									<?php
+									$description = get_bloginfo( 'description', 'display' );
+									if ( $description || is_customize_preview() ) : ?>
+										<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+									<?php
+									endif; ?>
 
-									<div class="site-branding">
-										<?php
-										the_custom_logo();
-										if ( is_front_page() && is_home() ) : ?>
-											<h1 class="site-title font-cabin"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-										<?php else : ?>
-											<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-										<?php
-										endif;
 
-										$description = get_bloginfo( 'description', 'display' );
-										if ( $description || is_customize_preview() ) : ?>
-											<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-										<?php
-										endif; ?>
-									</div><!-- .site-branding -->
 
 
 									<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
@@ -78,9 +71,14 @@
 									<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 									<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 									<link href="https://fonts.googleapis.com/css?family=Cabin|Orbitron|Oswald" rel="stylesheet">
+									<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
 
 						</header><!-- #masthead -->
 						<?php get_sidebar(); ?>
+
+
 					</div><!--column-->
 					<div class="column main-area-column is-desktop-only">
 <!-- 							<nav id="site-navigation" class="main-navigation">
@@ -97,3 +95,4 @@
 
 
 			<div id="content" class="site-content">
+

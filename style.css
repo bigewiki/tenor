@@ -1,49 +1,49 @@
 /*!
- * Theme Name: _s
- * Theme URI: https://underscores.me/
- * Author: Automattic
- * Author URI: https://automattic.com/
- * Description: Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
- * Version: 1.0.0
- * License: GNU General Public License v2 or later
- * License URI: LICENSE
- * Text Domain: _s
- * Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
- *
- * This theme, like WordPress, is licensed under the GPL.
- * Use it to make something cool, have fun, and share what you've learned with others.
- *
- * _s is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
- * Underscores is distributed under the terms of the GNU GPL v2 or later.
- *
- * Normalizing styles have been helped along thanks to the fine work of
- * Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
- * */
+ *  * Theme Name: _s
+ *   * Theme URI: https://underscores.me/
+ *    * Author: Automattic
+ *     * Author URI: https://automattic.com/
+ *      * Description: Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+ *       * Version: 1.0.0
+ *        * License: GNU General Public License v2 or later
+ *         * License URI: LICENSE
+ *          * Text Domain: _s
+ *           * Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+ *            *
+ *             * This theme, like WordPress, is licensed under the GPL.
+ *              * Use it to make something cool, have fun, and share what you've learned with others.
+ *               *
+ *                * _s is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+ *                 * Underscores is distributed under the terms of the GNU GPL v2 or later.
+ *                  *
+ *                   * Normalizing styles have been helped along thanks to the fine work of
+ *                    * Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+ *                     * */
 /*--------------------------------------------------------------
- * >>> TABLE OF CONTENTS:
- * ----------------------------------------------------------------
- * # Normalize
- * # Typography
- * # Elements
- * # Forms
- * # Navigation
- * 	## Links
- * 		## Menus
- * 		# Accessibility
- * 		# Alignments
- * 		# Clearings
- * 		# Widgets
- * 		# Content
- * 			## Posts and pages
- * 				## Comments
- * 				# Infinite scroll
- * 				# Media
- * 					## Captions
- * 						## Galleries
- * 						--------------------------------------------------------------*/
+ *  * >>> TABLE OF CONTENTS:
+ *   * ----------------------------------------------------------------
+ *    * # Normalize
+ *     * # Typography
+ *      * # Elements
+ *       * # Forms
+ *        * # Navigation
+ *         * 	## Links
+ *          * 		## Menus
+ *           * 		# Accessibility
+ *            * 		# Alignments
+ *             * 		# Clearings
+ *              * 		# Widgets
+ *               * 		# Content
+ *                * 			## Posts and pages
+ *                 * 				## Comments
+ *                  * 				# Infinite scroll
+ *                   * 				# Media
+ *                    * 					## Captions
+ *                     * 						## Galleries
+ *                      * 						--------------------------------------------------------------*/
 /*--------------------------------------------------------------
- * # Normalize
- * --------------------------------------------------------------*/
+ *  * # Normalize
+ *   * --------------------------------------------------------------*/
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -256,8 +256,8 @@ th {
 }
 
 /*--------------------------------------------------------------
- * # Typography
- * --------------------------------------------------------------*/
+ *  * # Typography
+ *   * --------------------------------------------------------------*/
 body,
 button,
 input,
@@ -324,8 +324,8 @@ big {
 }
 
 /*--------------------------------------------------------------
- * # Elements
- * --------------------------------------------------------------*/
+ *  * # Elements
+ *   * --------------------------------------------------------------*/
 html {
 	box-sizing: border-box;
 }
@@ -393,8 +393,8 @@ table {
 }
 
 /*--------------------------------------------------------------
- * # Forms
- * --------------------------------------------------------------*/
+ *  * # Forms
+ *   * --------------------------------------------------------------*/
 button,
 input[type="button"],
 input[type="reset"],
@@ -477,11 +477,11 @@ textarea {
 }
 
 /*--------------------------------------------------------------
- * # Navigation
- * --------------------------------------------------------------*/
+ *  * # Navigation
+ *   * --------------------------------------------------------------*/
 /*--------------------------------------------------------------
- * ## Links
- * --------------------------------------------------------------*/
+ *  * ## Links
+ *   * --------------------------------------------------------------*/
 a {
 	color: royalblue;
 }
@@ -503,8 +503,8 @@ a:hover, a:active {
 }
 
 /*--------------------------------------------------------------
- * ## Menus
- * --------------------------------------------------------------*/
+ *  * ## Menus
+ *   * --------------------------------------------------------------*/
 .main-navigation {
 	clear: both;
 	display: block;
@@ -595,8 +595,8 @@ a:hover, a:active {
 }
 
 /*--------------------------------------------------------------
- * # Accessibility
- * --------------------------------------------------------------*/
+ *  * # Accessibility
+ *   * --------------------------------------------------------------*/
 /* Text meant only for screen readers. */
 .screen-reader-text {
 	border: 0;
@@ -639,8 +639,8 @@ a:hover, a:active {
 }
 
 /*--------------------------------------------------------------
- * # Alignments
- * --------------------------------------------------------------*/
+ *  * # Alignments
+ *   * --------------------------------------------------------------*/
 .alignleft {
 	display: inline;
 	float: left;
@@ -661,8 +661,8 @@ a:hover, a:active {
 }
 
 /*--------------------------------------------------------------
- * # Clearings
- * --------------------------------------------------------------*/
+ *  * # Clearings
+ *   * --------------------------------------------------------------*/
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -690,8 +690,8 @@ a:hover, a:active {
 }
 
 /*--------------------------------------------------------------
- * # Widgets
- * --------------------------------------------------------------*/
+ *  * # Widgets
+ *   * --------------------------------------------------------------*/
 .widget {
 	margin: 0 0 1.5em;
 	/* Make sure select elements fit in widgets. */
@@ -702,11 +702,11 @@ a:hover, a:active {
 }
 
 /*--------------------------------------------------------------
- * # Content
- * --------------------------------------------------------------*/
+ *  * # Content
+ *   * --------------------------------------------------------------*/
 /*--------------------------------------------------------------
- * ## Posts and pages
- * --------------------------------------------------------------*/
+ *  * ## Posts and pages
+ *   * --------------------------------------------------------------*/
 .sticky {
 	display: block;
 }
@@ -731,8 +731,8 @@ a:hover, a:active {
 }
 
 /*--------------------------------------------------------------
- * ## Comments
- * --------------------------------------------------------------*/
+ *  * ## Comments
+ *   * --------------------------------------------------------------*/
 .comment-content a {
 	word-wrap: break-word;
 }
@@ -742,8 +742,8 @@ a:hover, a:active {
 }
 
 /*--------------------------------------------------------------
- * # Infinite scroll
- * --------------------------------------------------------------*/
+ *  * # Infinite scroll
+ *   * --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
@@ -757,8 +757,8 @@ a:hover, a:active {
 }
 
 /*--------------------------------------------------------------
- * # Media
- * --------------------------------------------------------------*/
+ *  * # Media
+ *   * --------------------------------------------------------------*/
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -781,8 +781,8 @@ object {
 }
 
 /*--------------------------------------------------------------
- * ## Captions
- * --------------------------------------------------------------*/
+ *  * ## Captions
+ *   * --------------------------------------------------------------*/
 .wp-caption {
 	margin-bottom: 1.5em;
 	max-width: 100%;
@@ -803,8 +803,8 @@ object {
 }
 
 /*--------------------------------------------------------------
- * ## Galleries
- * --------------------------------------------------------------*/
+ *  * ## Galleries
+ *   * --------------------------------------------------------------*/
 .gallery {
 	margin-bottom: 1.5em;
 }
@@ -894,9 +894,6 @@ object {
 	color:#054d8c;
 }
 
-.site-branding{
-	margin-top:20px;
-}
 
 p,a,h1,h2,h3,h4,h5,h6,h7,h8{
 	font-family: 'Cabin', sans-serif !important;
@@ -932,68 +929,114 @@ p,a,h1,h2,h3,h4,h5,h6,h7,h8{
     #secondary {
         display:none;
     }
-	
+
 	.left-sidebar {
     height: 100px;
     border-right: none;
 	}
-	
-	.site-branding,.entry-meta,#colophon,.entry-content,.entry-footer{
+
+	.entry-meta,#colophon,.entry-content,.entry-footer{
 		    margin: 20px;
 	}
-	
-/* 	.menu-toggle{
-		background-color:transparent;
-		border:0px solid transparent;
-		float:right;
-		font-size:20px;
-		padding:0px;
-		margin:10px;
-		position:absolute;
-		top:50px;
-		right:50px;
-	} */
-	
+
+	.site-title a{
+		color:black;
+	}
+
+	/* 	.menu-toggle{
+	*  			background-color:transparent;
+	*  					border:0px solid transparent;
+	*  							float:right;
+	*  									font-size:20px;
+	*  											padding:0px;
+	*  													margin:10px;
+	*  															position:absolute;
+	*  																	top:50px;
+	*  																			right:50px;
+	*  																				} */
+
 	#masthead,.left-sidebar,.main-navigation{
 		background-color: #3E5062;
-		    margin-bottom: 20px;
 	}
-	
-	.site-title a,.site-description,.main-navigation a,.menu-toggle{
+
+.site-description,.main-navigation a,.menu-toggle{
 		color:white;
 	}
-	
-	.entry-title {
-    font-size: 25px;
-    border-bottom: none;
-    border-top: none;
-    padding: 15px;
-    font-family: 'Orbitron', sans-serif;
+
+	.site-description{
+		text-align:center;
+		padding-top:20px;
 	}
-	
+
+	.entry-title {
+		font-size: 25px;
+		border-bottom: none;
+		border-top: none;
+		padding: 15px;
+		font-family: 'Orbitron', sans-serif;
+	}
+
 	.entry-title a{
 		    color: #7AC8CC;
 	}
-	
+
 	body{
 		background-color:#C2D0DC;
 	}
-	
+
 	.post-card{
 		margin:20px;
 		padding:20px;
 	}
-	
+
 	.footer-bordered {
 		background-color:#232323;
 	}
 
-	#masthead{
-		margin-bottom:50px;
+	.nav-and-branding{
+		height:150px;
 	}
 	
-	.nav-and-branding{
-		height:200px;
+	.site-branding{
+		margin:10px;
 	}
-
+	
+	.tenor-nav-burger {
+		cursor: pointer;
+		display: block;
+		position: relative;
+		margin-left: auto;
+		height: 70px!important;
+		width: 70px!important;
+	}
+	
+	.tenor-nav-burger:hover{
+		background-color:#FFFFFD;
+	}
+	
+	.comments-link{
+		border-radius: 290486px;
+		padding-left: 1em;
+		padding-right: 1em;
+		background-color: #00d1b2;
+		border-color: transparent;
+		color: #fff;
+		padding: 10px 20px 10px 20px;
+		line-height:50px;
+		margin-top:50px;
+	}
+	
+	.comments-link a{
+		color:white;
+	}
+	
+	.comments-link:hover{
+	background-color:#05a089;
+	}
+	
+	.comments-link a:hover{
+		color:white;
+	}
 }
+
+

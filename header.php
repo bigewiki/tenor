@@ -42,7 +42,7 @@
 
 											</div><!-- .site-branding -->
 
-										<button class="button tenor-nav-burger">
+										<button class="button tenor-nav-menu">
 										  <i class="fas fa-chevron-down"></i>
 										</button>
 										<div class="navbar-menu">

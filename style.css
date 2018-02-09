@@ -943,18 +943,6 @@ p,a,h1,h2,h3,h4,h5,h6,h7,h8{
 		color:black;
 	}
 
-	/* 	.menu-toggle{
-	*  			background-color:transparent;
-	*  					border:0px solid transparent;
-	*  							float:right;
-	*  									font-size:20px;
-	*  											padding:0px;
-	*  													margin:10px;
-	*  															position:absolute;
-	*  																	top:50px;
-	*  																			right:50px;
-	*  																				} */
-
 	#masthead,.left-sidebar,.main-navigation{
 		background-color: #3E5062;
 	}
@@ -1010,6 +998,10 @@ p,a,h1,h2,h3,h4,h5,h6,h7,h8{
 		width: 70px!important;
 	}
 	
+	.tenor-nav-menu a{
+		border: 1px solid black;
+	}
+	
 	.tenor-nav-burger:hover{
 		background-color:#FFFFFD;
 	}
@@ -1054,13 +1046,21 @@ p,a,h1,h2,h3,h4,h5,h6,h7,h8{
 		background-color:white;
 		color:black;
 		display:none;
-		z-index:9999!important;
 
 	}
 	
-	.tenor-mobile-slideDown li{
+	.tenor-mobile-slideDown .menu li{
 		text-align:center;
 		font-size:30px;
+	}
+	
+	.is-desktop-only{
+		display:none;
+	}
+	
+	.tenor-no-top{
+		margin-top: 0px;
+		padding-top: 0px!important;
 	}
 	
 	

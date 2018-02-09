@@ -9,7 +9,7 @@
 	 */
 
 	get_header(); ?>
-
+	
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main">
 
@@ -18,6 +18,9 @@
 
 				get_template_part( 'template-parts/content', get_post_type() );
 
+				?>
+				<div class="card post-card">
+				<?php
 				the_post_navigation();
 
 				// If comments are open or we have at least one comment, load up the comment template.
@@ -27,7 +30,7 @@
 
 			endwhile; // End of the loop.
 			?>
-
+			</div>
 			</main><!-- #main -->
 		</div><!-- #primary -->
 

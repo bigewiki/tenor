@@ -42,9 +42,9 @@
 
 											</div><!-- .site-branding -->
 
-										<button class="button tenor-nav-menu">
+										<a class="button tenor-nav-menu">
 										  <i class="fas fa-chevron-down"></i>
-										</button>
+										</a>
 										<div class="navbar-menu">
 											<?php
 												wp_nav_menu( array(
@@ -55,14 +55,6 @@
 										</div>
 									  </div>
 									</nav>
-									<div class="tenor-mobile-slideDown">
-										<?php
-											wp_nav_menu( array(
-												'theme_location' => 'menu-1',
-												'menu_id'        => 'primary-menu',
-											) );
-										?>
-									</div>
 
 									<?php
 									$description = get_bloginfo( 'description', 'display' );
@@ -89,8 +81,8 @@
 
 
 					</div><!--column-->
-					<div class="column main-area-column is-desktop-only">
-<!-- 							<nav id="site-navigation" class="main-navigation">
+					<div class="column main-area-column tenor-no-top">
+							<nav id="site-navigation" class="main-navigation is-desktop-only">
 								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
 									<i class="fa fa-bars" aria-hidden="true"></i>
 								</button>
@@ -99,8 +91,17 @@
 										'theme_location' => 'menu-1',
 										'menu_id'        => 'primary-menu',
 									) );
-								?> -->
+								?> 
 							</nav><!-- #site-navigation -->
+						
+							<div class="tenor-mobile-slideDown">
+								<?php
+								wp_nav_menu( array(
+									'theme_location' => 'menu-1',
+									'menu_id'        => 'primary-menu',
+								) );
+								?>
+							</div> <!--.tenor-mobile-slideDown-->
 
 
 			<div id="content" class="site-content">

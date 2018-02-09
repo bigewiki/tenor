@@ -55,6 +55,14 @@
 										</div>
 									  </div>
 									</nav>
+									<div class="tenor-mobile-slideDown">
+										<?php
+											wp_nav_menu( array(
+												'theme_location' => 'menu-1',
+												'menu_id'        => 'primary-menu',
+											) );
+										?>
+									</div>
 
 									<?php
 									$description = get_bloginfo( 'description', 'display' );
@@ -72,6 +80,7 @@
 									<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 									<link href="https://fonts.googleapis.com/css?family=Cabin|Orbitron|Oswald" rel="stylesheet">
 									<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+									<script src="wp-content/themes/tenor/js/tenor-functions.js"></script>
 
 
 

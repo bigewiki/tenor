@@ -18,6 +18,7 @@
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main">
 
+				<div class="card post-card">
 				<?php
 				while ( have_posts() ) : the_post();
 
@@ -30,6 +31,7 @@
 
 				endwhile; // End of the loop.
 				?>
+				</div>
 
 			</main><!-- #main -->
 		</div><!-- #primary -->

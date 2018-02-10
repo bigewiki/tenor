@@ -72,7 +72,7 @@
 									<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 									<link href="https://fonts.googleapis.com/css?family=Cabin|Orbitron|Oswald" rel="stylesheet">
 									<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-									<script src="wp-content/themes/tenor/js/tenor-functions.js"></script>
+									<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/tenor-functions.js"></script>
 
 
 
